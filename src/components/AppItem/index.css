@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.app-item {
+  width: 200px;
+  background-color: #ffffff;
+  list-style-type: none;
+  padding: 25px 5px 15px 5px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.app-image {
+  width: 80px;
+  height: 80px;
+}
+
+.app-name {
+  color: #1e293b;
+  font-family: 'Bree serif';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+  .app-item {
+    width: 100px;
+    padding: 15px 1px 7px 1px;
+    margin: 8px;
+    border-radius: 8px;
+  }
+
+  .app-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .app-name {
+    font-size: 8px;
+  }
+}

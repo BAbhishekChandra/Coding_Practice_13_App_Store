@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.tab-list-item {
+  list-style-type: none;
+  margin: 10px 10px 0 10px;
+  width: 100px;
+}
+
+.tab-item-name {
+  color: #7b8794;
+  font-size: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 3px solid #fff1eb;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.tab-active-blue {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-list-item {
+    width: 50px;
+  }
+
+  .tab-item-name {
+    font-size: 12px;
+  }
+}
